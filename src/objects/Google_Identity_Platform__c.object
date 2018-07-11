@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>Google Sign-In is a secure authentication system that reduces the burden of login for your users, by enabling them to sign in with their Google account—the same account they already use with Gmail, Play, Google+, and other Google services.</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableChangeDataCapture>false</enableChangeDataCapture>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableReports>false</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ReadWrite</externalSharingModel>
+    <fields>
+        <fullName>Claim_Set_ISS__c</fullName>
+        <description>E-mail address of the Service Account.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter the e-mail address of the Service Account.</inlineHelpText>
+        <label>Claim Set &quot;iss:&quot;</label>
+        <length>100</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Claim_Set_Scope__c</fullName>
+        <description>A space-delimited list of the permissions that the application requests.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter the list of permissions being requested</inlineHelpText>
+        <label>Claim Set &quot;scope:&quot;</label>
+        <length>100</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Claim_Set_aud__c</fullName>
+        <description>A descriptor of the intended target of the assertion. When making an access token request this value is always https://www.googleapis.com/oauth2/v4/token.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter a descriptor of the intended target.</inlineHelpText>
+        <label>Claim Set &quot;aud:&quot;</label>
+        <length>100</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Claim_Set_exp__c</fullName>
+        <description>The expiration time of the assertion, specified as seconds since 00:00:00 UTC, January 1, 1970. This value has a maximum of 1 hour after the issued time.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter the expiration time of the assertion, specified as seconds since 00:00:00 UTC, January 1, 1970. This value has a maximum of 1 hour after the issued time.</inlineHelpText>
+        <label>Claim Set &quot;exp:&quot;</label>
+        <length>20</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Claim_Set_iat__c</fullName>
+        <description>The time the assertion was issued, specified as seconds since 00:00:00 UTC, January 1, 1970.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter the time the assertion was issued, specified as seconds since 00:00:00 UTC, January 1, 1970.</inlineHelpText>
+        <label>Claim Set &quot;iat:&quot;</label>
+        <length>30</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HTTP_End_Point__c</fullName>
+        <description>The URL of the Google authentication service</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter the URL for the Google authentication service.</inlineHelpText>
+        <label>HTTP End Point</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>HTTP_Header__c</fullName>
+        <description>The Content-Type entity header is used to indicate the media type of the resource.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter the Header Content-Type.</inlineHelpText>
+        <label>HTTP Header Content-Type</label>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>true</sorted>
+                <value>
+                    <fullName>application/x-www-form-urlencoded</fullName>
+                    <default>true</default>
+                    <label>application/x-www-form-urlencoded</label>
+                </value>
+                <value>
+                  <fullName>application/json</fullName>
+                  <default>false</default>
+                  <label>application/json</label>
+                </value>
+                <value>
+                  <fullName>application/xml</fullName>
+                  <default>false</default>
+                  <label>application/xml</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>HTTP_Method__c</fullName>
+        <description>HTTP defines a set of request methods to indicate the desired action to be performed for a given resource.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter the HTTP request method.</inlineHelpText>
+        <label>HTTP Method</label>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>POST</fullName>
+                    <default>false</default>
+                    <label>POST</label>
+                </value>
+                <value>
+                    <fullName>GET</fullName>
+                    <default>false</default>
+                    <label>GET</label>
+                </value>
+                <value>
+                    <fullName>PUT</fullName>
+                    <default>false</default>
+                    <label>PUT</label>
+                </value>
+                <value>
+                    <fullName>PATCH</fullName>
+                    <default>false</default>
+                    <label>PATCH</label>
+                </value>
+                <value>
+                    <fullName>DELETE</fullName>
+                    <default>false</default>
+                    <label>DELETE</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Header_Format__c</fullName>
+        <description>Google Identity Platform service accounts rely on the RSA SHA-256 algorithm and the JWT token format. This field describes the JSON representation of the header.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter the JSON representation of the JWT header format.</inlineHelpText>
+        <label>Header Format</label>
+        <length>100</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Signature_Private_Key__c</fullName>
+        <externalId>false</externalId>
+        <label>Signature Private Key</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>10</visibleLines>
+    </fields>
+    <label>Google Identity Platform</label>
+    <listViews>
+        <fullName>All</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <label>Google Identity Platform</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Google Identity Platform</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+    <webLinks>
+        <fullName>Test</fullName>
+        <availability>online</availability>
+        <displayType>link</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>Test</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <url>{!REQUIRESCRIPT(&quot;/soap/ajax/30.0/connection.js&quot;)}
+{!REQUIRESCRIPT(&quot;/soap/ajax/30.0/apex.js&quot;)}
+
+sforce.apex.execute(&quot;SFtoGA&quot;,&quot;SetLeadPref&quot;,{leadID:&quot;{!Lead.Id}&quot;, visitorID:&quot;{!Lead.Visitor_ID__c}&quot;});</url>
+    </webLinks>
+</CustomObject>

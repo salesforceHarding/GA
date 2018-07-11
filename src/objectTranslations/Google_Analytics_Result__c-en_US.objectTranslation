@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Google Analytics Result</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Google Analytics Results</value>
+    </caseValues>
+    <fields>
+        <label><!-- Data Group --></label>
+        <name>Data_Group__c</name>
+    </fields>
+    <fields>
+        <label><!-- Data Name --></label>
+        <name>Data_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Data Value --></label>
+        <name>Data_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parent Object Type --></label>
+        <name>Parent_Object_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parent Object --></label>
+        <name>Parent_Object__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

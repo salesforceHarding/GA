@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Google Identity Platform</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Google Identity Platform</value>
+    </caseValues>
+    <fields>
+        <help><!-- Enter the e-mail address of the Service Account. --></help>
+        <label><!-- Claim Set &quot;iss:&quot; --></label>
+        <name>Claim_Set_ISS__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter the list of permissions being requested --></help>
+        <label><!-- Claim Set &quot;scope:&quot; --></label>
+        <name>Claim_Set_Scope__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter a descriptor of the intended target. --></help>
+        <label><!-- Claim Set &quot;aud:&quot; --></label>
+        <name>Claim_Set_aud__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter the expiration time of the assertion, specified as seconds since 00:00:00 UTC, January 1, 1970. This value has a maximum of 1 hour after the issued time. --></help>
+        <label><!-- Claim Set &quot;exp:&quot; --></label>
+        <name>Claim_Set_exp__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter the time the assertion was issued, specified as seconds since 00:00:00 UTC, January 1, 1970. --></help>
+        <label><!-- Claim Set &quot;iat:&quot; --></label>
+        <name>Claim_Set_iat__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter the URL for the Google authentication service. --></help>
+        <label><!-- HTTP End Point --></label>
+        <name>HTTP_End_Point__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter the Content-Type. --></help>
+        <label><!-- HTTP Header Content-Type --></label>
+        <name>HTTP_Header__c</name>
+        <picklistValues>
+            <masterLabel>application/x-www-form-urlencoded</masterLabel>
+            <translation><!-- application/x-www-form-urlencoded --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Enter the HTTP request method. --></help>
+        <label><!-- HTTP Method --></label>
+        <name>HTTP_Method__c</name>
+        <picklistValues>
+            <masterLabel>DELETE</masterLabel>
+            <translation><!-- DELETE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GET</masterLabel>
+            <translation><!-- GET --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PATCH</masterLabel>
+            <translation><!-- PATCH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>POST</masterLabel>
+            <translation><!-- POST --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PUT</masterLabel>
+            <translation><!-- PUT --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Enter the JSON representation of the JWT header format. --></help>
+        <label><!-- Header Format --></label>
+        <name>Header_Format__c</name>
+    </fields>
+    <fields>
+        <label><!-- Signature Private Key --></label>
+        <name>Signature_Private_Key__c</name>
+    </fields>
+    <layouts>
+        <layout>Google Identity Platform</layout>
+        <sections>
+            <label><!-- Claim Set --></label>
+            <section>Claim Set</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- HTTP Configuration --></label>
+            <section>HTTP Configuration</section>
+        </sections>
+        <sections>
+            <label><!-- Header --></label>
+            <section>Header</section>
+        </sections>
+        <sections>
+            <label><!-- Signature --></label>
+            <section>Signature</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <webLinks>
+        <label><!-- Test --></label>
+        <name>Test</name>
+    </webLinks>
+</CustomObjectTranslation>

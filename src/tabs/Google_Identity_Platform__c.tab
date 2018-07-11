@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomTab xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customObject>true</customObject>
+    <description>Google Sign-In is also your gateway to connecting with Google’s users and services in a secure manner. You can give your users the opportunity to pay with Android Pay, share with their Google-wide contacts, save a file to Drive, add an event to Calendar, and more. Integrate Google’s user-centric APIs and services inside your app to help your users take action and convert.</description>
+    <mobileReady>false</mobileReady>
+    <motif>Custom15: People</motif>
+</CustomTab>

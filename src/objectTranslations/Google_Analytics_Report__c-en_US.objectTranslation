@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Google Analytics Report</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Google Analytics Reports</value>
+    </caseValues>
+    <fields>
+        <label><!-- Active --></label>
+        <name>Active__c</name>
+    </fields>
+    <fields>
+        <label><!-- Google Identity Platform --></label>
+        <name>Google_Identity_Platform__c</name>
+        <relationshipLabel><!-- Google Analytics Reports --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- HTTP End Point --></label>
+        <name>HTTP_End_Point__c</name>
+    </fields>
+    <fields>
+        <label><!-- HTTP Header Content-Type --></label>
+        <name>HTTP_Header_Content_Type__c</name>
+        <picklistValues>
+            <masterLabel>application/json</masterLabel>
+            <translation><!-- application/json --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- HTTP Method --></label>
+        <name>HTTP_Method__c</name>
+        <picklistValues>
+            <masterLabel>POST</masterLabel>
+            <translation><!-- POST --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Object Related --></label>
+        <name>Object_Related__c</name>
+        <picklistValues>
+            <masterLabel>Account</masterLabel>
+            <translation><!-- Account --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contact</masterLabel>
+            <translation><!-- Contact --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lead</masterLabel>
+            <translation><!-- Lead --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Person Account</masterLabel>
+            <translation><!-- Person Account --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Report Request --></label>
+        <name>Report_Request__c</name>
+    </fields>
+    <fields>
+        <label><!-- Trigger --></label>
+        <name>Trigger__c</name>
+        <picklistValues>
+            <masterLabel>After Insert</masterLabel>
+            <translation><!-- After Insert --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>After Insert &amp; Update</masterLabel>
+            <translation><!-- After Insert &amp; Update --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>After Update</masterLabel>
+            <translation><!-- After Update --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>Google Analytics Report</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Execution --></label>
+            <section>Execution</section>
+        </sections>
+        <sections>
+            <label><!-- HTTP Configuration --></label>
+            <section>HTTP Configuration</section>
+        </sections>
+        <sections>
+            <label><!-- Report Request (JSON) --></label>
+            <section>Report Request (JSON)</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

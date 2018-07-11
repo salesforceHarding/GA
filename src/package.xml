@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>GA_Integration</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>Google_Analytics_Lightning</members>
+        <name>CustomApplication</name>
+    </types>
+    <types>
+        <members>Google_Analytics_Report__c</members>
+        <members>Google_Analytics_Result__c</members>
+        <members>Google_Identity_Platform__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Google_Analytics_Report__c-en_US</members>
+        <members>Google_Analytics_Result__c-en_US</members>
+        <members>Google_Identity_Platform__c-en_US</members>
+        <name>CustomObjectTranslation</name>
+    </types>
+    <types>
+        <members>Google_Analytics_Report__c</members>
+        <members>Google_Analytics_Result__c</members>
+        <members>Google_Identity_Platform__c</members>
+        <name>CustomTab</name>
+    </types>
+    <types>
+        <members>Google_Analytics_Report__c-Google Analytics Report</members>
+        <members>Google_Analytics_Result__c-Google Analytics Result Layout</members>
+        <members>Google_Identity_Platform__c-Google Identity Platform</members>
+        <name>Layout</name>
+    </types>
+    <version>40.0</version>
+</Package>
