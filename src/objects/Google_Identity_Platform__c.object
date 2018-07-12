@@ -137,21 +137,21 @@
         <valueSet>
             <restricted>true</restricted>
             <valueSetDefinition>
-                <sorted>true</sorted>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>application/json</fullName>
+                    <default>false</default>
+                    <label>application/json</label>
+                </value>
+                <value>
+                    <fullName>application/xml</fullName>
+                    <default>false</default>
+                    <label>application/xml</label>
+                </value>
                 <value>
                     <fullName>application/x-www-form-urlencoded</fullName>
                     <default>true</default>
                     <label>application/x-www-form-urlencoded</label>
-                </value>
-                <value>
-                  <fullName>application/json</fullName>
-                  <default>false</default>
-                  <label>application/json</label>
-                </value>
-                <value>
-                  <fullName>application/xml</fullName>
-                  <default>false</default>
-                  <label>application/xml</label>
                 </value>
             </valueSetDefinition>
         </valueSet>
@@ -170,9 +170,9 @@
             <valueSetDefinition>
                 <sorted>false</sorted>
                 <value>
-                    <fullName>POST</fullName>
+                    <fullName>DELETE</fullName>
                     <default>false</default>
-                    <label>POST</label>
+                    <label>DELETE</label>
                 </value>
                 <value>
                     <fullName>GET</fullName>
@@ -180,19 +180,19 @@
                     <label>GET</label>
                 </value>
                 <value>
-                    <fullName>PUT</fullName>
-                    <default>false</default>
-                    <label>PUT</label>
-                </value>
-                <value>
                     <fullName>PATCH</fullName>
                     <default>false</default>
                     <label>PATCH</label>
                 </value>
                 <value>
-                    <fullName>DELETE</fullName>
+                    <fullName>POST</fullName>
+                    <default>true</default>
+                    <label>POST</label>
+                </value>
+                <value>
+                    <fullName>PUT</fullName>
                     <default>false</default>
-                    <label>DELETE</label>
+                    <label>PUT</label>
                 </value>
             </valueSetDefinition>
         </valueSet>
@@ -232,17 +232,4 @@
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
-    <webLinks>
-        <fullName>Test</fullName>
-        <availability>online</availability>
-        <displayType>link</displayType>
-        <linkType>javascript</linkType>
-        <masterLabel>Test</masterLabel>
-        <openType>onClickJavaScript</openType>
-        <protected>false</protected>
-        <url>{!REQUIRESCRIPT(&quot;/soap/ajax/30.0/connection.js&quot;)}
-{!REQUIRESCRIPT(&quot;/soap/ajax/30.0/apex.js&quot;)}
-
-sforce.apex.execute(&quot;SFtoGA&quot;,&quot;SetLeadPref&quot;,{leadID:&quot;{!Lead.Id}&quot;, visitorID:&quot;{!Lead.Visitor_ID__c}&quot;});</url>
-    </webLinks>
 </CustomObject>

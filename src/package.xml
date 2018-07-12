@@ -5,6 +5,10 @@
         <name>ApexClass</name>
     </types>
     <types>
+        <members>GoogleAnalyticsicon</members>
+        <name>ContentAsset</name>
+    </types>
+    <types>
         <members>Google_Analytics_Lightning</members>
         <name>CustomApplication</name>
     </types>
@@ -25,6 +29,11 @@
         <members>Google_Analytics_Result__c</members>
         <members>Google_Identity_Platform__c</members>
         <name>CustomTab</name>
+    </types>
+    <types>
+        <members>Google_Analytics_Report_Record_Page</members>
+        <members>Google_Identity_Platform_Record_Page</members>
+        <name>FlexiPage</name>
     </types>
     <types>
         <members>Google_Analytics_Report__c-Google Analytics Report</members>

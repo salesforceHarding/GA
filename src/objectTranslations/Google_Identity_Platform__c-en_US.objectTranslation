@@ -39,12 +39,20 @@
         <name>HTTP_End_Point__c</name>
     </fields>
     <fields>
-        <help><!-- Enter the Content-Type. --></help>
+        <help><!-- Enter the Header Content-Type. --></help>
         <label><!-- HTTP Header Content-Type --></label>
         <name>HTTP_Header__c</name>
         <picklistValues>
+            <masterLabel>application/json</masterLabel>
+            <translation><!-- application/json --></translation>
+        </picklistValues>
+        <picklistValues>
             <masterLabel>application/x-www-form-urlencoded</masterLabel>
             <translation><!-- application/x-www-form-urlencoded --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>application/xml</masterLabel>
+            <translation><!-- application/xml --></translation>
         </picklistValues>
     </fields>
     <fields>
@@ -105,8 +113,4 @@
         </sections>
     </layouts>
     <startsWith>Consonant</startsWith>
-    <webLinks>
-        <label><!-- Test --></label>
-        <name>Test</name>
-    </webLinks>
 </CustomObjectTranslation>
