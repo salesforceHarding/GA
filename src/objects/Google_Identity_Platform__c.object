@@ -43,7 +43,7 @@
     <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
-    <description>Google Sign-In is a secure authentication system that reduces the burden of login for your users, by enabling them to sign in with their Google account—the same account they already use with Gmail, Play, Google+, and other Google services.</description>
+    <description></description>
     <enableActivities>false</enableActivities>
     <enableBulkApi>true</enableBulkApi>
     <enableChangeDataCapture>false</enableChangeDataCapture>
